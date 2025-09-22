@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
-  "scope": "/",
+  "scope": "/ProgettoSpese/",
   "icons": [
     {
       "src": "/icon.png",
@@ -14,4 +14,5 @@
     }
   ]
 }
+
 
