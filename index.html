@@ -1176,6 +1176,13 @@ const monthCards = document.querySelectorAll('.month-card');
 
 
 </script>
-
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log("Service Worker registrato"))
+      .catch(err => console.error("Errore SW:", err));
+  }
+  </script>
+  
 </body>
 </html>
